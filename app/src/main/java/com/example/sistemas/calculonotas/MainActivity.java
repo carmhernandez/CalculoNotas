@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 try {
-                    SharedPreferences preferencias = getSharedPreferences("Prog. Restrcciones", Context.MODE_PRIVATE);
+                    SharedPreferences preferencias = getSharedPreferences("Matematicas", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = preferencias.edit();
                     String t31 = edtTN1M2.getText().toString();
                     editor.putString("d", edtTN1M2.getText().toString());
@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 try{
-                    SharedPreferences preferencias=getSharedPreferences("Prog. Restrcciones", Context.MODE_PRIVATE);
+                    SharedPreferences preferencias=getSharedPreferences("Matematicas", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor=preferencias.edit();
                     String t31=edtTN1M2.getText().toString();
                     editor.putString("d", edtTN1M2.getText().toString());
@@ -249,7 +249,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 try {
-                    SharedPreferences preferencias=getSharedPreferences("Prog. Restrcciones", Context.MODE_PRIVATE);
+                    SharedPreferences preferencias=getSharedPreferences("Matematicas", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor=preferencias.edit();
                     String t31=edtTN1M2.getText().toString();
                     editor.putString("p", edtTN1M2.getText().toString());
@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity {
 
 // Materia Ingenieria Software
 
-        SharedPreferences prefe3=getSharedPreferences("Ingenieria", Context.MODE_PRIVATE);
+        SharedPreferences prefe3=getSharedPreferences("Ingenieriadesoftware", Context.MODE_PRIVATE);
         edtTN1M3=(EditText) findViewById(R.id.edTN1M3);
         edtTN1M3.setText(prefe3.getString("g" ,"0"));
         edtTN2M3=(EditText) findViewById(R.id.edTN2M3);
@@ -300,7 +300,7 @@ public class MainActivity extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 try {
 
-                    SharedPreferences preferencias=getSharedPreferences("Seguridad", Context.MODE_PRIVATE);
+                    SharedPreferences preferencias=getSharedPreferences("Ingenieriadesoftware", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor=preferencias.edit();
 
                     String t31=edtTN1M3.getText().toString();
@@ -342,7 +342,7 @@ public class MainActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 try {
 
-                    SharedPreferences preferencias=getSharedPreferences("Seguridad", Context.MODE_PRIVATE);
+                    SharedPreferences preferencias=getSharedPreferences("Ingenieriadesoftware", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor=preferencias.edit();
 
                     String t31=edtTN1M3.getText().toString();
@@ -385,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 try {
 
-                    SharedPreferences preferencias=getSharedPreferences("Seguridad", Context.MODE_PRIVATE);
+                    SharedPreferences preferencias=getSharedPreferences("Ingenieriadesoftware", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor=preferencias.edit();
 
                     String t31=edtTN1M3.getText().toString();
